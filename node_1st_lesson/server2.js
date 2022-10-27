@@ -2,17 +2,17 @@
 
 const http = require('http');
 
-const port = 3000;
+const port = 3001;
 
 const host = 'localhost';
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {
-        'Content-Type': 'text/plain; charset=utf-8'
+        'Content-Type': 'application/json'
     });
     // response.write('Hello');
     // response.end();
-    response.end('<h1>Hello!</h1>');
+    response.end(JSON.stringify(person));
 
 });
 
