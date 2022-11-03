@@ -16,6 +16,12 @@ for (const car of cars) {
     return models;
 }
 
+
+// another possible bad implementation
+// function getAllModels(){
+//     return ['Fast GT', 'Errare', 'MbW']
+// }
+
 function getCar(key, value) {
     const found = [];
     if (key && value) {
