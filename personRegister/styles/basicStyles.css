@@ -1,0 +1,21 @@
+.hidden{
+    display:none;
+}
+
+label{
+    font-weight: bold;
+}
+
+main{
+    display: grid;
+    justify-items: center;
+    background-color: #e7e7e7;
+}
+
+section{
+    margin-top: 1em;
+    padding:1em;
+}
+table{
+    border-collapse: collapse;
+}
