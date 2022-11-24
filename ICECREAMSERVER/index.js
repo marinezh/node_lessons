@@ -18,7 +18,7 @@ const { getAllFlavors, hasFlavor, getIceCream } = require(path.join(
   "iceCreamFreezer.js"
 ));
 
-const resourceRoutes = ["/style/", "/js/", "/images/"];
+const resourceRoutes = ['/styles/', '/js/', '/images/'];
 
 const homePath = path.join(__dirname, "home.html");
 

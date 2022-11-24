@@ -1,6 +1,17 @@
 [
-    {"model": "Fast GT", "licence": "ABC-1"},
-    {"model": "Ferrare", "licence": "XYZ-123"},
-    {"model": "Fast GT", "licence": "Hi-1"},
-    {"model": "MbW", "licence": "A-1"}
+    {"model": "Fast GT",
+     "licence": "ABC-1"
+    },
+
+    {"model": "Ferrare", 
+    "licence": "XYZ-123"
+},
+
+    {"model": "Fast GT",
+     "licence": "Hi-1"
+    },
+
+    {"model": "MbW",
+     "licence": "A-1"
+    }
 ]
