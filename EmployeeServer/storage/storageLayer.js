@@ -2,7 +2,8 @@
 
 const path = require("path");
 
-const { key, adapterFile, storageFile } = require("./storageConfig.json")
+// const { key, adapterFile, storageFile } = require("./storageConfig.json")
+const { key, adapterFile, storageFile } = require("./bookStorageConfig.json")
 
 
 const { readStorage, writeStorage } = require('./readerWriter')
@@ -47,7 +48,7 @@ async function removeFromStorage(id) {
     return await writeStorage(storageFilePath, storageData);
 }
 
-// module.exports = { getAllFromStorage, getFromStorage, addToStorage, removeFromStorage, updateStorage }
+module.exports = { getAllFromStorage, getFromStorage, addToStorage, removeFromStorage, updateStorage }
 
 //tests
 // getAllFromStorage().then(console.log).catch(console.log)
