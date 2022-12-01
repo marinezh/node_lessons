@@ -2,8 +2,8 @@
 
 const path = require("path");
 
-// const { key, adapterFile, storageFile } = require("./storageConfig.json")
-const { key, adapterFile, storageFile } = require("./bookStorageConfig.json")
+const { key, adapterFile, storageFile } = require("./storageConfig.json")
+// const { key, adapterFile, storageFile } = require("./bookStorageConfig.json") // for bookstesting
 
 
 const { readStorage, writeStorage } = require('./readerWriter')
@@ -55,13 +55,13 @@ module.exports = { getAllFromStorage, getFromStorage, addToStorage, removeFromSt
 // getFromStorage(2).then(console.log).catch(console.log)
 // getFromStorage(100).then(console.log).catch(console.log)
 
-addToStorage({
-    "id": '500',
-    "firstname": "fff",
-    "lastname": "ggg",
-    "department": "hhh",
-    "salary": "555"
-}).then(console.log).catch(console.log)
+// addToStorage({
+//     "id": '500',
+//     "firstname": "fff",
+//     "lastname": "ggg",
+//     "department": "hhh",
+//     "salary": "555"
+// }).then(console.log).catch(console.log)
 
 // addToStorage({
 //     "id": '100',
@@ -72,3 +72,4 @@ addToStorage({
 // }).then(console.log).catch(console.log)
 
 // removeFromStorage(100).then(console.log).catch(console.log)
+

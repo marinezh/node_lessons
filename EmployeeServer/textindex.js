@@ -1,27 +1,37 @@
-"use strict";
+'use strict';
 
-const Datastorage = require("./storage/dataStorageLayer")
+const Datastorage = require('./storage/dataStorageLayer');
 
-const storage = new Datastorage();
+const storage=new Datastorage();
 
-// storage.getAll().then(console.log).catch(console.log)
-storage.getAll(2).then(console.log).catch(console.log)
+// storage.getAll().then(console.log).catch(console.log);
+// storage.getOne().then(console.log).catch(console.log);
+// storage.remove(100).then(console.log).catch(console.log);
+// (async ()=>{
+//     // try{
+//     //     const result = await storage.getOne();
+//     //     console.log(result);
+//     // }
+//     // catch(err){
+//     //     console.log(err);
+//     //     if(err.code===storage.CODES.NOT_FOUND){
+//     //         console.log('This is missing')
+//     //     }
+//     // }
+//     try{
+//         const status = await storage.update({
+//             "id": '100',
+//             "firstname": "Leila",
+//             "lastname": "Hökki",
+//             "department": "ict",
+//             "salary": '4009'
+//         }
+//         );
+//         console.log(status);
+//     }
+//     catch(err){
+//         console.log(err);
+//     }
+    
 
-    (async () => {
-        try {
-            const result = await storage.getOne();
-            console.log(result);
-        } catch (err) {
-            console.log(err);
-            if (err.code === storage.CODES.NOT_FOUND) {
-                console.log('this is missing');
-            }
-        }
-
-
-    })
-
-const status = await storage.insert({
-
-
-})
+// })();
