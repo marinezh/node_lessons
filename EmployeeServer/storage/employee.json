@@ -1,23 +1,23 @@
 [
     {
-        "id": 1,
-        "firstname": "Leila",
-        "lastname": "Heikki",
-        "department": "ict",
-        "salary": 4000
-    },
-    {
-        "id": 2,
-        "firstname": "Matt",
-        "lastname": "River",
-        "department": "ict",
-        "salary": 4000
-    },
-    {
         "id": 100,
         "firstname": "fff",
         "lastname": "ggg",
         "department": "hhh",
         "salary": 555
+    },
+    {
+        "id": 3,
+        "firstname": "ggss",
+        "lastname": "hhsss",
+        "department": "jjjssss",
+        "salary": 0
+    },
+    {
+        "id": 7,
+        "firstname": "dfhgsdf",
+        "lastname": "shsdhdsh",
+        "department": "shdsghdh",
+        "salary": 5000
     }
 ]
