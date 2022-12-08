@@ -19,5 +19,19 @@
         "lastname": "shsdhdsh",
         "department": "shdsghdh",
         "salary": 5000
+    },
+    {
+        "id": 2,
+        "firstname": "ssss",
+        "lastname": "Zhivotova",
+        "department": "hhhcc",
+        "salary": 10000
+    },
+    {
+        "id": 8,
+        "firstname": "888",
+        "lastname": "888",
+        "department": "888",
+        "salary": 888
     }
 ]
