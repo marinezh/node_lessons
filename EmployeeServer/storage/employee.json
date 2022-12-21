@@ -1,9 +1,9 @@
 [
     {
         "id": 100,
-        "firstname": "fff",
-        "lastname": "ggg",
-        "department": "hhh",
+        "firstname": "oooo",
+        "lastname": "oooo",
+        "department": "ooo",
         "salary": 555
     },
     {
@@ -15,17 +15,10 @@
     },
     {
         "id": 7,
-        "firstname": "dfhgsdf",
-        "lastname": "shsdhdsh",
-        "department": "shdsghdh",
+        "firstname": "aaa",
+        "lastname": "aaa",
+        "department": "aaa",
         "salary": 5000
-    },
-    {
-        "id": 2,
-        "firstname": "ssss",
-        "lastname": "Zhivotova",
-        "department": "hhhcc",
-        "salary": 10000
     },
     {
         "id": 8,
@@ -33,5 +26,12 @@
         "lastname": "888",
         "department": "888",
         "salary": 888
+    },
+    {
+        "id": 9,
+        "firstname": "ssss",
+        "lastname": "",
+        "department": "",
+        "salary": 0
     }
 ]

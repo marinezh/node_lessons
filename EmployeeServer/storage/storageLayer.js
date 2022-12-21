@@ -7,11 +7,11 @@ const { key, adapterFile, storageFile } = require("./storageConfig.json");
 
 const { readStorage, writeStorage } = require("./readerWriter");
 
-const storageFilePath = path.join(__dirname, storageFile);
+const storageFilePath = path.join(__dirname, storageFile); // this is the path to json file with employees
 
 const { adapt } = require(path.join(__dirname, adapterFile));
 
-// console.log(storageFilePath);
+console.log("storageFilePath...", storageFilePath);
 
 async function getAllFromStorage() {
   return readStorage(storageFilePath);

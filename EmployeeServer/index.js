@@ -80,7 +80,7 @@ app.get("/updateform", (req, res) =>
   res.render("form", {
     title: "Update person",
     header1: "Update Person data",
-    action: "/updatedata",
+    action: "/updatedata1",
     id: { value: "", readonly: "" },
     firstname: { value: "", readonly: "readonly" },
     lastname: { value: "", readonly: "readonly" },
@@ -89,7 +89,7 @@ app.get("/updateform", (req, res) =>
   })
 );
 
-app.post("/updatedata", (req, res) => {
+app.post("/updatedata1", (req, res) => {
   if (!req.body) return res.sendStatus(500);
 
   dataStorage
@@ -98,7 +98,7 @@ app.post("/updatedata", (req, res) => {
       res.render("form", {
         title: "Update person",
         header1: "Update Person data",
-        action: "/update",
+        action: "/update1",
         id: { value: employee.id, readonly: "readonly" },
         firstname: { value: employee.firstname, readonly: "" },
         lastname: { value: employee.lastname, readonly: "" },
@@ -109,7 +109,7 @@ app.post("/updatedata", (req, res) => {
     .catch((error) => sendErrorPage(res, error));
 });
 
-app.post("/update", (req, res) => {
+app.post("/update1", (req, res) => {
   if (!req.body) return res.statusCode(500);
   dataStorage
     .update(req.body)
@@ -121,7 +121,7 @@ app.post("/update", (req, res) => {
 app.get("/removePerson", (req, res) =>
   res.render("getPerson", {
     title: "Remove",
-    header1: "remove",
+    header1: "remove person",
     action: "/removePerson",
   })
 );
