@@ -8,41 +8,30 @@
   </head>
   <body>
     <main>
-        <h2>All Cats</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Cat's number</th>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Department</th>
-                    <th>Salary</th>
-                </tr>
-            </thead>
-            <tbody>
-                <% result.forEach(person=> { %>
-                    <tr>
-                        <td>
-                            <%= person.id %>
-                        </td>
-                        <td>
-                            <%= person.firstname %>
-                        </td>
-                        <td>
-                            <%= person.lastname %>
-                        </td>
-                        <td>
-                            <%= person.department %>
-                        </td>
-                        <td>
-                            <%= person.salary %>
-                        </td>
-                    </tr>
-                    <% }) %>
-            </tbody>
-        </table>
-        <a href="/"><button>Menu</button></a>
+      <h2>All Cats</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Number</th>
+            <th>Name</th>
+            <th>Weight</th>
+            <th>Year of birth</th>
+            <th>Breed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% result.forEach(cat=> { %>
+          <tr>
+            <td><%= cat.number %></td>
+            <td><%= cat.name %></td>
+            <td><%= cat.weight %></td>
+            <td><%= cat.yearOfBirth %></td>
+            <td><%= cat.breed %></td>
+          </tr>
+          <% }) %>
+        </tbody>
+      </table>
+      <a href="/"><button>Menu</button></a>
     </main>
-
   </body>
 </html>
