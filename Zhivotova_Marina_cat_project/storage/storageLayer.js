@@ -79,4 +79,4 @@ module.exports = {
 //     "salary": "5557"
 // }).then(console.log).catch(console.log)
 
-removeFromStorage(10).then(console.log).catch(console.log);
+// removeFromStorage(10).then(console.log).catch(console.log);

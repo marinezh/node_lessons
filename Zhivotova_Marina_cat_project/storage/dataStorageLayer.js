@@ -70,7 +70,7 @@ module.exports = class Datastorage {
 
   remove(number) {
     return new Promise(async (resolve, reject) => {
-      if (!id) {
+      if (!number) {
         reject(MESSAGES.NOT_FOUND("---empty---"));
       } else if (await removeFromStorage(number)) {
         resolve(MESSAGES.REMOVE_OK(number));

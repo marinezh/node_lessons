@@ -21,10 +21,11 @@ tr {
 
     border: solid black 1px;
     padding: 0.5em;
+    text-align: center;
 }
 
 thead {
-    background-color: yellow;
+    background-color: rgb(249, 249, 179);
 }
 
 button {
@@ -42,7 +43,3 @@ h1.error {
     color: grey;
 }
 
-.legend {
-    font-weight: bold;
-    color: blue;
-}
