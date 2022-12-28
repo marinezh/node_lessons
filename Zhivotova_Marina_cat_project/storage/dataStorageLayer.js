@@ -81,4 +81,4 @@ module.exports = class Datastorage {
   } //end of remove
 };
 
-console.log(getAll());
+

@@ -47,5 +47,12 @@
         "weightKg": 7,
         "yearOfBirth": 2017,
         "breed": "sillycat"
+    },
+    {
+        "number": 10,
+        "name": "Simba",
+        "weightKg": 7,
+        "yearOfBirth": 2021,
+        "breed": "oriental"
     }
 ]
