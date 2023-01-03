@@ -1,45 +1,59 @@
 main,
 form {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 input[readonly] {
-    background-color: grey;
+  background-color: grey;
 }
 
+input {
+  width: 5rem;
+
+}
 table {
-    border-collapse: collapse;
-    margin-bottom: 1em;
+  border-collapse: collapse;
+  margin-bottom: 1em;
 }
 
 table,
 th,
 tr {
-
-    border: solid black 1px;
-    padding: 0.5em;
-    text-align: center;
+  border: solid black 1px;
+  padding: 0.5em;
+  text-align: center;
 }
 
+
 thead {
-    background-color: rgb(249, 249, 179);
+  background-color: #a09eff;
 }
 
 button {
-    font-family: sans-serif;
-    width: 13em;
-    height: 2em;
+  font-family: sans-serif;
+  width: 13em;
+  height: 2em;
 }
 
 p.info {
-    border: solid green 2px;
-    padding: 1em;
+  border: solid #bce8d3 2px;
+  padding: 1em;
 }
 
 h1.error {
-    color: grey;
+  color: grey;
 }
 
+
+
+form div p {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.5rem;
+}
+
+button{
+    margin-top: 1rem;
+}

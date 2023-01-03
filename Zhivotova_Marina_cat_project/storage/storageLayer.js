@@ -59,24 +59,4 @@ module.exports = {
 //tests
 // getAllFromStorage().then(console.log).catch(console.log);
 // getFromStorage(5).then(console.log).catch(console.log);
-// getFromStorage(100).then(console.log).catch(console.log)
-
-// addToStorage({
-//   number: 10,
-//   name: "Simba",
-//   weightKg: 4,
-//   yearOfBirth: 2021,
-//   breed: "oriental",
-// })
-//   .then(console.log)
-//   .catch(console.log);
-
-// addToStorage({
-//     "number": '100',
-//     "firstname": "fff",
-//     "lastname": "ggg",
-//     "department": "hhh",
-//     "salary": "5557"
-// }).then(console.log).catch(console.log)
-
 // removeFromStorage(10).then(console.log).catch(console.log);

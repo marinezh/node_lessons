@@ -44,15 +44,8 @@
     {
         "number": 1,
         "name": "Hairball",
-        "weightKg": 7,
+        "weightKg": 8,
         "yearOfBirth": 2017,
         "breed": "clevercat"
-    },
-    {
-        "number": 10,
-        "name": "Simba",
-        "weightKg": 7,
-        "yearOfBirth": 2021,
-        "breed": "oriental"
     }
 ]

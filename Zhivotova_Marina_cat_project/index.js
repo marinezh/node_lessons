@@ -35,7 +35,7 @@ app.get("/all", (req, res) =>
 app.get("/getCat", (req, res) =>
   res.render("getCat", {
     title: "Get",
-    header1: "Get",
+    header1: "Get a cat",
     action: "/getCat",
   })
 );
@@ -77,7 +77,7 @@ app.post("/input", (req, res) => {
 app.get("/updateform", (req, res) =>
   res.render("form", {
     title: "Update cat",
-    header1: "Update cat data",
+    header1: "Update cat information",
     action: "/updatedata1",
     number: { value: "", readonly: "" },
     name: { value: "", readonly: "readonly" },
@@ -95,7 +95,7 @@ app.post("/updatedata1", (req, res) => {
     .then((cat) =>
       res.render("form", {
         title: "Update cat",
-        header1: "Update cat data",
+        header1: "Update cat information",
         action: "/update1",
         number: { value: cat.number, readonly: "readonly" },
         name: { value: cat.name, readonly: "" },
@@ -119,7 +119,7 @@ app.post("/update1", (req, res) => {
 app.get("/removeCat", (req, res) =>
   res.render("getCat", {
     title: "Remove",
-    header1: "remove cat",
+    header1: "Remove cat",
     action: "/removeCat",
   })
 );
